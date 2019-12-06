@@ -39,7 +39,8 @@ fun Application.module(testing: Boolean = false) {
                     BookRespond(
                         title = it.title,
                         isbn = it.isbn,
-                        publishedAt = it.publishedAt.toString("yyyy-MM-dd HH:mm:ss")
+                        publishedAt = it.publishedAt.toString("yyyy-MM-dd HH:mm:ss"),
+                        author = it.author.name
                     )
                 }
             }
