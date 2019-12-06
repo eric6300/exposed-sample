@@ -1,4 +1,4 @@
-package io.kraftsman.sample.relations
+package io.kraftsman.sample.demos
 
 import io.kraftsman.sample.entities.Author
 import io.kraftsman.sample.entities.Book

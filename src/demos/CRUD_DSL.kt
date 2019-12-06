@@ -1,4 +1,4 @@
-package io.kraftsman.sample.crud
+package io.kraftsman.sample.demos
 
 import com.github.javafaker.Faker
 import io.kraftsman.sample.tables.dsl.Books

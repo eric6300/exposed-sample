@@ -1,4 +1,4 @@
-package io.kraftsman.sample
+package io.kraftsman.sample.demos
 
 import com.github.javafaker.Faker
 import io.kraftsman.sample.entities.Author
@@ -22,7 +22,6 @@ fun main() {
 
     transaction {
         SchemaUtils.drop(Authors, Books)
-
         SchemaUtils.create(Authors, Books)
     }
 
